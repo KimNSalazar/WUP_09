@@ -126,7 +126,7 @@ The model using all 5 is the best model.
 
 ### Best Two regressor model
 
-Using leaps we were able to focus its power onto the adjusted r-squared value. Then it would give us only the highest of adjusted r-squared values for 1, 2, 3, 4 and 5 variables for pike. Using this kind of leaps it shows that L1 and L3 are the best two regreseors for the highest adjusted r-squared value making it the best 2 regressor model.
+Using leaps we were able to focus its power onto the adjusted r-squared value. Then it would give us only the highest of adjusted r-squared values for 1, 2, 3, 4 and 5 variables for pike. Using this kind of leaps it shows that L1 and L3 are the best two regreseors for the highest adjusted r-squared value making it the best 2 regressor model. 
 
 ## Roach
 ```{r}
@@ -157,3 +157,5 @@ This shows that the best model is the one with two variables based off the leaps
 Leaps has shown the model with the highest adjusted r-squared value has two variables which are L3and W. So the best 2 regressor model is the one that includes L3 and W. 
 
 ## Final Summary Statements
+Using leaps we were able to target the adjusted r-squared value and easily find the best model for a combination of variables from combinations of 1 to 5, 5 being the max for our fish data. This allowed for easy comparison to find the best regression model.
+
